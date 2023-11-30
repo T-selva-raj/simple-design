@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:"poppins";
+    height: auto;
+
+}
+.container{
+    background-color: transparent;
+}
+h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+.little{
+    color:orangered;
+}
+/* ................nav bar........... */
+.link{
+    color:rgb(172, 168, 168);
+    font-size: 1.2em;
+    height:10px;
+   
+
+}
+
+.ul1{
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+.well{
+    border:0px transparent;
+}
+.link:hover{
+    text-decoration: none;
+    color:orangered;
+}
+.link:visited:active{
+    text-decoration: none;
+    color:orangered;
+}
+.ul2{
+    height:29px;
+    padding:7px;
+    margin-top: 20px;;
+}
+.nav1{
+    margin: 20px;
+}
+.icon{
+    float:right;
+}
+/* ...........navbar end................ */
+/* header */
+
+.header{
+    height: 400px;
+    background-color: #f0f8ff;
+    padding:120px;
+}
+.header1{
+    height: 400px;
+    background-color: #ffffff;
+    padding:120px;
+}
+.header h1{
+    color:orangered;
+    font-weight:bolder;
+    font-size: 4em;
+}
+.header h2{
+    color:rgb(57, 57, 56);
+    font-weight:bolder;
+    font-size: 3em;
+}
+.headerimg{
+    background-image: url("https://www.tooplate.com/templates/2127_little_fashion/images/header/positive-european-woman-has-break-after-work.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* .................................... */
+/* .........form container */
+.formrow{
+    margin-top: 70px;
+}
+.ip{
+    margin-top:20px;
+    margin-left: 15%;
+    height:40px;
+    width:80%;   
+    border:0.5px solid rgb(138, 137, 137);
+    border-radius: 5px;
+}
+.textarea{
+    height:180px;
+    resize:vertical;
+}
+#lets{
+    margin-left:15%;
+    font-size: 3em;
+}
+#button{
+    width: 30%;
+    height: 50px;
+    padding:10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color:#f0f8ff;
+    background-color: black;
+    border-radius: 30px;
+}
+
+/* content right of form */
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1{
+    padding-right:60px;
+    padding-bottom: 20px;
+}
+.item2{
+    padding-left:30px;
+    padding-bottom: 20px;
+}
+.item3{
+    padding-right:80px;
+    padding-top: 20px;
+}
+.item4{
+    padding-left:30px;
+    padding-top: 20px;
+}
+/* footer................................................. */
+
+.footer{
+    background-color: rgb(11, 11, 13);
+    margin-top: 100px;
+    padding-top:50px;
+    height:auto;
+    color:rgb(178, 172, 172);
+}
+
+/* social */
+
+.social{
+    text-decoration: none;
+    margin:10px;
+    font-size: 1.5em;
+    color:rgb(178, 172, 172);
+    transition:0.5s;
+}
+.social:hover{
+    transform:scale(1.05,1.05);
+    text-decoration: none;
+    color:white;
+}
+
